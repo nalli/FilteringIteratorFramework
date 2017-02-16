@@ -91,28 +91,4 @@ public final class FilteringIterator<E> implements Iterator<E> {
 		findNextElement();
 	}
 
-	public IObjectTester getTester() {
-		return tester;
-	}
-
-	public void setTester(IObjectTester tester) {
-		this.tester = tester;
-	}
-
-	public Iterator<E> getMyIterator() {
-		return myIterator;
-	}
-
-	public void setMyIterator(Iterator<E> myIterator) {
-		this.myIterator = myIterator;
-	}
-
-	public E getNextElement() {
-		return nextElement;
-	}
-
-	public void setNextElement(E nextElement) {
-		this.nextElement = nextElement;
-	}
-
 }
