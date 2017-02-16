@@ -90,5 +90,4 @@ public final class FilteringIterator<E> implements Iterator<E> {
 		myIterator.remove();
 		findNextElement();
 	}
-
 }
